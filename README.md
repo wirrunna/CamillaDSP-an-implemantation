@@ -7,12 +7,15 @@ Initially I ran Squeezelite on the Raspberry Pi with CamillaDSP and controlled i
 
 Components - 
 Raspberry Pi 5 and 32GB SD card.
+
 Waveshare 10.1inch Capacitive Touch Screen LCD (B) with Case 1280×800 HDMI IPS Display Compatible with Raspberry Pi.
 https://www.amazon.com.au/Waveshare-10-1inch-Capacitive-Compatible-Raspberry/dp/B0BFQGZ2NV
 
 Software -
 CamillaDSP as per the CamillaDSP tutorial.
+
 Jivelite - full install instructions from Man in a van here -
 https://forums.slimdevices.com/forum/user-forums/linux-unix/95254-announce-jivelite-cut-down-squeezebox-control-application/page33#post1681857
+
 On-screen keyboard for RPi 5 running Pi OS (Bookworm)
 https://forums.raspberrypi.com/viewtopic.php?t=358147
