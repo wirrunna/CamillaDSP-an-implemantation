@@ -11,6 +11,9 @@ This is a Prt Sc from the RPi5 showing the screen in more detail while playing.
 Note the top row of the screen showing icons, on the left the Raspberry will display a drop down menu for various system utilities, the keyboard will display/hide the on-screen keyboard. The icons on the far right also show details in drop down menus. The CDSP volume can be altered either by the slider or with the remote. The JiveLite screen will be familiar to Squeezebox (LMS) users.
 ![alt text](<Images/10.1 screen Jivelite and Firefox CamillaDSP.jpg>)
 
+This Prt Sc shows the CDSP Devices tab with the on-screen keyboard.
+ ![alt text](<Images/10.1 screen Devices tab with on-screen keyboard.jpg>)
+
 This Prt Sc shows the CDSP File tab. 
 ![alt text](<Images/10.1 screen CamillaDSP Files tab.jpg>)
 
