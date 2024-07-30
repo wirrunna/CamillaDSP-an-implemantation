@@ -11,8 +11,8 @@ This is a Prt Sc from the RPi5 showing the screen in more detail while playing.
 Note the top row of the screen showing icons, on the left the Raspberry will display a drop down menu for various system utilities, the keyboard will display/hide the on-screen keyboard. The icons on the far right also show details in drop down menus. The CDSP volume can be altered either by the slider or with the remote. The JiveLite screen will be familiar to Squeezebox (LMS) users.
 ![alt text](<Images/10.1 screen Jivelite and Firefox CamillaDSP.jpg>)
 
-This Prt Sc shows the CDSP Devices tab with the on-screen keyboard.
- ![alt text](<Images/10.1 screen Devices tab with on-screen keyboard.jpg>)
+This Prt Sc shows the CDSP Devices tab with the on-screen keyboard. The keys are big enough for good typing accuracy with big hands.
+![alt text](<Images/10.1 screen Devices tab with on-screen keyboard.jpg>)
 
 This Prt Sc shows the CDSP File tab. 
 ![alt text](<Images/10.1 screen CamillaDSP Files tab.jpg>)
@@ -23,7 +23,9 @@ This Prt Sc shows the Pipeline in collapsed mode.
 
 Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog output to the three stereo amplifiers.
 
-Initially I ran Squeezelite on the Raspberry Pi with CamillaDSP and controlled it via a  PiCorePlayer on another Raspberry Pi running on a 7" screen. I then tried installing and running JiveLite on the RPi 5 with CamillaDSP instead of SqueezeLite and attached a 7" touch screen. As well as the streaming facility, JiveLite provides player controls and display. This worked fairly well, but could be improved with a bit more screen space to avoid swapping from app to app, so I bought a Waveshare 10.1" touch screen with a stand and provision for mounting a RPi on the back (details in the link to Waveshare below). By running the Raspberry Pi desktop OS instead of Raspberry Pi Lite and adding an on-screen keyboard there is now full control of the internet browser for CamillaDSP without the need for an attached keyboard. 
+Initially I ran CamillaDSP and Squeezelite on a headless Raspberry Pi with the OLED volume display as recommended in Michael's tutorial. The music was controlled via a  PiCorePlayer on another Raspberry Pi running on a 7" screen. 
+I then tried installing and running JiveLite on the RPi 5 with CamillaDSP instead of SqueezeLite and mounted the RPi on the back of a 7" touch screen display. As well as the streaming facility, JiveLite provides player controls and display. This worked fairly well, required swapping from JiveLite to CDSP to see the volume.
+After a bit of research I bought a Waveshare 10.1" touch screen with a stand and provision for mounting a RPi on the back (details in the link to Waveshare below). By running the Raspberry Pi desktop OS instead of Raspberry Pi Lite and adding an on-screen keyboard there is now full control of the internet browser for CamillaDSP without the need for an attached keyboard. 
 
 Components - 
 Raspberry Pi 5 and 32GB SD card.
