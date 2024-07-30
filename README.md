@@ -2,7 +2,7 @@
 Implementing CamillaDSP on a Raspberry Pi 5 on a 10.1" Touch screen
 
 ![Alt text](Images/10.1 screen front on shelf.jpg)
-
+![Alt text](C:\GIT\CamillaDSP-Implemantation\Images\10.1 back showing RPi5 plugs and FLIRC and remote.jpg)
 
 Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog output to the three stereo amplifiers.
 
