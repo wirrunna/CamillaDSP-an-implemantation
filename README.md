@@ -20,6 +20,8 @@ This Prt Sc shows the CDSP File tab.
 This Prt Sc shows the Pipeline in collapsed mode.
 ![alt text](<Images/10.1 screen Pipeline - collapsed.jpg>)
  
+ This Prt Sc shows the JiveLite screensaver Word Clock. This is the screen saver I use on my PiCorePlayers.
+ ![alt text](<Images/10.1 screen JiveLite screensaver Word Clock.jpg>)
 
 Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog output to the three stereo amplifiers.
 
