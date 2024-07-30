@@ -3,9 +3,8 @@ Implementing CamillaDSP on a Raspberry Pi 5 on a 10.1" Touch screen
 
 
 ![alt text](<Images/10.1 screen front on shelf.jpg>)
-![
-    
-](<Images/10.1 back showing RPi5 plugs and FLIRC and remote.jpg>)
+
+![alt text](<Images/10.1 back showing RPi5 plugs and FLIRC and remote.jpg>)
 
 ![alt text](<Images/10.1 screen Jivelite and Firefox CamillaDSP.jpg>)
 
