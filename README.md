@@ -3,13 +3,14 @@ Implementing CamillaDSP on a Raspberry Pi 5 on a 10.1" Touch screen
 
 
 ![alt text](<Images/10.1 screen front on shelf.jpg>)
+This is the screen showing CamillaDSP with JiveLite.
 
 ![alt text](<Images/10.1 back showing RPi5 plugs and FLIRC and remote.jpg>)
-
+This shows the back of the screen with the RPi5 mounted. The support legs have a slot  allowing cables to be fed through keeping some tideness. The FLIRC is attached on the right hand side to a USB extension cable, the old Squeezebox remote is beside the screen.
 ![alt text](<Images/10.1 screen Jivelite and Firefox CamillaDSP.jpg>)
-
+This is a Prt Sc from the RPi5 showing the screen in more detail while playing.
 ![alt text](<Images/10.1 screen Pipeline - collapsed.jpg>)
-
+This is a Prt Sc showing the Pipeline in collapsed mode. 
 
 Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog output to the three stereo amplifiers.
 
