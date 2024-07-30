@@ -24,8 +24,12 @@ This Prt Sc shows the Pipeline in collapsed mode.
 Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog output to the three stereo amplifiers.
 
 Initially I ran CamillaDSP and Squeezelite on a headless Raspberry Pi with the OLED volume display as recommended in Michael's tutorial. The music was controlled via a  PiCorePlayer on another Raspberry Pi running on a 7" screen. 
-I then tried installing and running JiveLite on the RPi 5 with CamillaDSP instead of SqueezeLite and mounted the RPi on the back of a 7" touch screen display. As well as the streaming facility, JiveLite provides player controls and display. This worked fairly well, required swapping from JiveLite to CDSP to see the volume.
-After a bit of research I bought a Waveshare 10.1" touch screen with a stand and provision for mounting a RPi on the back (details in the link to Waveshare below). By running the Raspberry Pi desktop OS instead of Raspberry Pi Lite and adding an on-screen keyboard there is now full control of the internet browser for CamillaDSP without the need for an attached keyboard. 
+
+I then tried installing and running JiveLite on the RPi 5 with CamillaDSP instead of SqueezeLite and mounted the RPi on the back of a 7" touch screen display. As well as the streaming facility, JiveLite provides player controls and display. This worked fairly well, but required swapping from JiveLite to CDSP to see the volume.
+
+After a bit of research I bought a Waveshare 10.1" touch screen with a stand and provision for mounting a RPi on the back (details in the link to Waveshare below). 
+
+By running the Raspberry Pi desktop OS instead of Raspberry Pi Lite and adding an on-screen keyboard there is now full control of the internet browser for CamillaDSP without the need for an attached keyboard. The full suite of RPi software utilities are also available. My understanding is that the RPi Desktop does not load software until it is executed and so it doesn't use more RAM than the RPi OS Lite, however it does use a few GB more storage but will safely run on a 32GB SD card. In fact after backup of my SD Card I loaded GParted and shrunk the SD card to 14 GB and have since copied the image onto several different SD cards to prove a theory that an SD image could be copied to Google Drive and downloaded and restored to give a working system.
 
 Components - 
 Raspberry Pi 5 and 32GB SD card.
