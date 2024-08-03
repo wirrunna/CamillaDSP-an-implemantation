@@ -19,7 +19,10 @@ This Prt Sc shows the CDSP File tab.
 
 This Prt Sc shows the Pipeline in collapsed mode.
 ![alt text](<Images/10.1 screen Pipeline - collapsed.jpg>)
- 
+
+This Prt Sc shows the Shortcuts tab with the Bass and Treble tone control sliders. Similar to the Volume slider these sliders take effect immediately - well, almost immediately, allowing for the delays in processing, 5ms due to time aligning the drivers and then however long the FIR filters delay things. I use these to add a little life (room curve) as the speakers are EQd flat.
+![alt text](<Images/10.1 screen CamillaDSP Shortcuts.jpg>)
+
  This Prt Sc shows the JiveLite screensaver Word Clock. This is the screen saver I use on my PiCorePlayers.
  ![alt text](<Images/10.1 screen JiveLite screensaver Word Clock.jpg>)
 
