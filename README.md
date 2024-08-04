@@ -2,12 +2,10 @@
 ### Implementing CamillaDSP on a Raspberry Pi 5 on a 10.1" Touch screen
 
 Here is a photo of the touch screen showing CamillaDSP (CDSP) with JiveLite.
-![alt text](<Images/10.1 screen pi running CDSP & JiveLite.jpg>)
 ![alt text](<Images/10.1 screen front pic.JPG>)
 
+This photo shows the back of the screen with the RPi5 mounted. The support legs have a slot  allowing cables to be fed through keeping some tideness. The FLIRC is attached on the right hand side to a USB extension cable.
 
-This photo shows the back of the screen with the RPi5 mounted. The support legs have a slot  allowing cables to be fed through keeping some tideness. The FLIRC is attached on the right hand side to a USB extension cable, the old Squeezebox remote is beside the screen.
-![alt text](<Images/10.1 back showing RPi5 plugs and FLIRC and remote.jpg>)
 ![alt text](<Images/10.1 screen back showing RPi5.JPG>)
 
 Enough photos, I mastered the highly technical process of Print Screen (Prt Sc) on the RPi5 - connect a USB keyboard and press Prt Sc. The resulting screen pic is stored in a folder called Pictures. Who would have thought!
