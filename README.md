@@ -1,7 +1,9 @@
 # CamillaDSP-an-Implemantation
 ### Implementing CamillaDSP on a Raspberry Pi 5 on a 10.1" Touch screen
 
-Here is a photo of the touch screen showing CamillaDSP (CDSP) with JiveLite.
+Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog input for CamillaDSP and also output to the three stereo amplifiers. JiveLite also runs on the RPi providing streaming from a LMS (Squeezebox) server. A FLIRC provides remote source selection and volume control.
+
+Here is a photo of the touch screen showing CamillaDSP (CDSP) with JiveLite playing.
 ![alt text](<Images/10.1 screen front pic.JPG>)
 
 This photo shows the back of the screen with the RPi5 mounted. The support legs have a slot  allowing cables to be fed through keeping some tideness. The FLIRC is attached on the right hand side to a USB extension cable.
@@ -32,9 +34,8 @@ This Prt Sc shows the Shortcuts tab with the Bass and Treble tone control slider
  This Prt Sc shows the JiveLite screensaver Word Clock. This is the screen saver I use on my PiCorePlayers.
  ![alt text](<Images/10.1 screen JiveLite screensaver Word Clock.jpg>)
 
-Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog output to the three stereo amplifiers.
 
-I have documented the process of building the CamillaDSP config for my K-Horns using REW and rePhase here - https://github.com/wirrunna/CamillaDSP-Building-a-Config . REW will save filters in CamillaDSP compatible format that CamillaDSP can import using the GUI.
+I have documented the process of building the CamillaDSP config for my K-Horns using REW and rePhase here - https://github.com/wirrunna/CamillaDSP-Building-a-Config . Both REW and rePhase will save filters in CamillaDSP compatible format that CamillaDSP can import using the GUI.
 
 
 Initially I ran CamillaDSP and Squeezelite on a headless Raspberry Pi with the OLED volume display as recommended in Michael's tutorial. The music was controlled via a  PiCorePlayer on another Raspberry Pi running on a 7" screen. 
@@ -47,11 +48,11 @@ By running the Raspberry Pi desktop OS instead of Raspberry Pi Lite and adding a
 
 
 ### Components - 
-Raspberry Pi 5 and 32GB SD card.
+Raspberry Pi 5, RPi5 Power Supply and 32GB SD card. I use the top half of a "Passive Cooling Open CNC Case for Raspberry Pi5" from https://edatec.cn/en/ac/pi5-opencase.html as a passive cooler.
 
 https://www.waveshare.com/10.1inch-hdmi-lcd-b-with-case.htm
 
-Waveshare have a higher resolution screen (1920x1200) in a sexier case but it needs a VESA mount for the RPi and the case is more expensive. I did buy one and set its screen resolution back to 1280 x 800 and JiveLite to Touch Skin 1024 x 600. It is a somewhat neater installation as most of the cables are hidden but there is no easy way to attach the FLIRC on a short USB extension cable so it is mounted to a USB on the RPi behind the screen and therefore not as sensitive to the remote. I could add an extension cable and gaffer tape it so it sticks out the side of the screen but have not done that yet.
+Waveshare have a higher resolution screen (1920x1200) in a sexier case but it needs a VESA mount for the RPi and the case is more expensive. I did buy one and set its screen resolution back to 1280 x 800 and JiveLite to Touch Skin 1024 x 600. It is a somewhat neater installation as most of the cables are hidden but there is no easy way to attach the FLIRC on a short USB extension cable so it is plugged into a USB port on the RPi behind the screen and therefore not as sensitive to the remote. I could add an extension cable and gaffer tape the FLIRC so it sticks out the side of the screen but have not done that yet.
 
 https://www.waveshare.com/product/10.1inch-hdmi-lcd-g-with-case.htm
 https://core-electronics.com.au/vesa-mount-for-raspberry-pi-44627.html
@@ -60,7 +61,7 @@ https://core-electronics.com.au/vesa-mount-for-raspberry-pi-44627.html
 CamillaDSP as per the CamillaDSP tutorial 
 https://github.com/mdsimon2/RPi-CamillaDSP
 
-Jivelite - full install instructions from Man in a van here -
+Jivelite - full install instructions from Man in a van here (thanks Ronnie) -
 https://forums.slimdevices.com/forum/user-forums/linux-unix/95254-announce-jivelite-cut-down-squeezebox-control-application/page33#post1681857
 I set the jivelite screen to Touch Skin 1024 x 600.
 
