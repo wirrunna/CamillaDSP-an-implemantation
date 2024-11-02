@@ -6,11 +6,14 @@ Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilla
 Here is a photo of the touch screen showing CamillaDSP (CDSP) with JiveLite playing.
 ![alt text](<Images/10.1 screen front pic.JPG>)
 
-This photo shows the back of the screen with the RPi5 mounted. The support legs have a slot  allowing cables to be fed through keeping some tideness. The FLIRC is attached on the right hand side to a USB extension cable.
-
+This photo shows the back of the screen with the RPi5 mounted. The support legs have a slot  allowing cables to be fed through keeping some tideness. The FLIRC is attached on the right hand side to a USB extension cable. The white cable is the RPi5 power, one of the black cables is the USB connection to the Motu UL Mk5 the other is the 5v power cable for the screen. 
 ![alt text](<Images/10.1 screen back showing RPi5.JPG>)
 
-Enough photos, I mastered the highly technical process of Print Screen (Prt Sc) on the RPi5 - connect a USB keyboard and press Prt Sc. The resulting screen pic is stored in a folder called Pictures. Who would have thought?
+Pic of amps - bottom left N-Core for bass, top left SMSL headphone amp for Hi, top right Topping LA90 for mid and bottom right Motu UL5. The amp stands are plastic wire coated shelf stands from K-Mart and provide exellent air flow.
+![alt text](<Images/Motu UL5 and amps.JPG>)
+ 
+
+Enough photos, I mastered the highly technical process of Print Screen (Prt Sc) on the RPi5 - connect a USB keyboard and press Prt Sc. The resulting screen pic is stored in ~\Pictures. Who would have thought?
 
 This is a Prt Sc from the RPi5 showing the screen in more detail while playing.
 Note the top row of the screen showing icons, on the left the Raspberry will display a drop down Start menu for various system utilities and loaded software, the keyboard will display/hide the on-screen keyboard. The icons on the far right also show details in drop down menus. The CDSP volume can be altered either by the slider or with the remote. The JiveLite screen will be familiar to Squeezebox (LMS) users.
