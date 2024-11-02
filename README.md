@@ -21,10 +21,10 @@ This Prt Sc shows the CDSP File tab.
 ![alt text](<Images/10.1 screen CamillaDSP Files tab.jpg>)
 
 This Prt Sc shows the Streamer input Pipeline in collapsed mode.
-![alt text](<Images\10.1 screen streamer pipeline collapsed.jpg>)
+![alt text](<Images/10.1 screen streamer pipeline collapsed.jpg>)
 
 This Prt Sc shows the Analog input Pipeline in collapsed mode.
-![alt text](<Images\10.1 screen analog pipeline collapsed.jpg>)
+![alt text](<Images/10.1 screen analog pipeline collapsed.jpg>)
 
 This Prt Sc shows the Shortcuts tab with the Bass and Treble tone control sliders. Similar to the Volume slider these sliders take effect immediately - well, almost immediately, allowing for the delays in processing, 5ms due to time aligning the drivers and then however long the FIR filters delay things. I use these to add a little life (room curve) as the speakers are EQd flat.
 ![alt text](<Images/10.1 screen CamillaDSP Shortcuts.jpg>)
@@ -52,11 +52,13 @@ Raspberry Pi 5 and 32GB SD card.
 https://www.waveshare.com/10.1inch-hdmi-lcd-b-with-case.htm
 
 Waveshare have a higher resolution screen (1920x1200) in a sexier case but it needs a VESA mount for the RPi and the case is more expensive. I did buy one and set its screen resolution back to 1280 x 800 and JiveLite to Touch Skin 1024 x 600. It is a somewhat neater installation as most of the cables are hidden but there is no easy way to attach the FLIRC on a short USB extension cable so it is mounted to a USB on the RPi behind the screen and therefore not as sensitive to the remote. I could add an extension cable and gaffer tape it so it sticks out the side of the screen but have not done that yet.
+
 https://www.waveshare.com/product/10.1inch-hdmi-lcd-g-with-case.htm
 https://core-electronics.com.au/vesa-mount-for-raspberry-pi-44627.html
 
 ### Software -
-CamillaDSP as per the CamillaDSP tutorial https://github.com/mdsimon2/RPi-CamillaDSP
+CamillaDSP as per the CamillaDSP tutorial 
+https://github.com/mdsimon2/RPi-CamillaDSP
 
 Jivelite - full install instructions from Man in a van here -
 https://forums.slimdevices.com/forum/user-forums/linux-unix/95254-announce-jivelite-cut-down-squeezebox-control-application/page33#post1681857
