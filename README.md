@@ -45,9 +45,12 @@ This Prt Sc shows the Streamer input zoomed in showing input filters in the popu
 ![alt text](<Images/10.1 screen streamer pipeline zoom in input showing input PEQs.jpg>)
 
 This Prt Sc shows the Streamer input zoomed in on output steps.
+![alt text](<Images/10.1 screen streamer pipeline zoom in on output.jpg>)
+
+This Prt Sc shows the Streamer input zoomed in closer on output steps.
 ![alt text](<Images/10.1 screen streamer pipeline zoom in closer on output.jpg>)
 
-This Prt Sc shows the Streamer input zoomed in on midd EQ filters in the popup.
+This Prt Sc shows the Streamer input zoomed in on Mid EQ filters in the popup.
 ![alt text](<Images/10.1 screen streamer pipeline zoom in closer on output showing Mid EQ Filters.jpg>)
 
 This Prt Sc shows the Shortcuts tab with the Bass and Treble tone control sliders. Similar to the Volume slider these sliders take effect immediately - well, almost immediately, allowing for the delays in processing, 5ms due to time aligning the drivers and then however long the FIR filters delay things. I use these to add a little life (room curve) as the speakers are EQd flat.
