@@ -5,10 +5,10 @@ Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilla
 
 This is in effect a combined pre-amplifier/streamer with DSP and remote control for selection of analog and digital inputs and volume. Bass and Treble are set by sliders on another screen.
 
-Here is a photo of the touch screen showing CamillaDSP (CDSP) with JiveLite playing playing a stream from my LMS server.
+Here is a photo of the touch screen showing the CamillaDSP (CDSP) GUI running in a browser with JiveLite playing a stream from my LMS server.
 ![alt text](<Images/10.1 screen front pic.JPG>)
 
-This photo shows the back of the screen with the RPi5 mounted. The support legs have a slot  allowing cables to be fed through keeping some tideness. The FLIRC is attached on the right hand side to a USB extension cable. The white cable is the RPi5 power, one of the black cables is the USB connection to the Motu UL Mk5 the other is the 5v power cable for the screen. 
+This photo shows the back of the screen with the RPi5 mounted. The support legs have a slot  allowing cables to be fed through keeping some tideness. The FLIRC is attached on the right hand side to a USB extension cable. The white cable is the RPi5 power, one of the black cables is the USB connection to the Motu UL Mk5 the other is the 5v power cable for the screen. The screen connects to the RPi5 via HDMI and USB for touch control.
 ![alt text](<Images/10.1 screen back showing RPi5.JPG>)
 
 Pic of amps - bottom left N-Core for bass, top left SMSL headphone amp for Hi, top right Topping LA90 for mid and bottom right Motu UL5. The amp stands are plastic wire coated shelf stands from K-Mart and provide exellent air flow.
@@ -18,13 +18,13 @@ Pic of amps - bottom left N-Core for bass, top left SMSL headphone amp for Hi, t
 Enough photos, I mastered the highly technical process of Print Screen (Prt Sc) on the RPi5 - connect a USB keyboard and press Prt Sc. The resulting screen pic is stored in ~\Pictures. Who would have thought?
 
 This is a Prt Sc from the RPi5 showing the screen in more detail while playing.
-Note the top row of the screen showing icons, on the left the Raspberry will display a drop down Start menu for various system utilities and loaded software, the keyboard will display/hide the on-screen keyboard. The icons on the far right also show details in drop down menus. The CDSP volume can be altered either by the slider or with the remote. The JiveLite screen will be familiar to Squeezebox (LMS) users.
+Note the top row of the screen showing icons, on the left the Raspberry icon will display a drop down Start menu for various system utilities and loaded software, the keyboard icon will display/hide the on-screen keyboard. The icons on the far right also show details in drop down menus. The CDSP volume can be altered either by the slider or with the remote. The JiveLite screen will be familiar to Squeezebox (LMS) users.
 ![alt text](<Images/10.1 screen Jivelite and Firefox CamillaDSP.jpg>)
 
 This Prt Sc shows the CDSP Devices tab with the on-screen keyboard. The keys are big enough for good typing accuracy with big hands.
 ![alt text](<Images/10.1 screen Devices tab with on-screen keyboard.jpg>)
 
-This Prt Sc shows the CDSP File tab. The "_" at the beginning of the configs is to identify them for the remote to select.
+This Prt Sc shows the CDSP File tab. The "_" at the beginning of the config names is to identify them for the remote to select.
 ![alt text](<Images/10.1 screen CamillaDSP Files tab.jpg>)
 
 This Prt Sc shows the Streamer input Pipeline in collapsed mode.
