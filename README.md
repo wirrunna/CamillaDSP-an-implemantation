@@ -38,7 +38,7 @@ This Prt Sc shows the Streamer input Pipeline in collapsed mode.
 This Prt Sc shows the Analog input Pipeline in collapsed mode.
 ![alt text](<Images/10.1 screen analog pipeline collapsed.jpg>)
 
-This Prt Sc shows the Streamer input zoomed in on input steps.
+This Prt Sc shows the Streamer input zoomed in on input steps. The 2x4 mixer stage is so that Input Stage filters are only applied to the channels for the K-Horn drivers.
 ![alt text](<Images/10.1 screen streamer pipeline zoom in input.jpg>)
 
 This Prt Sc shows the Streamer input zoomed in showing input filters in the popup.
