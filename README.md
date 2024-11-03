@@ -22,7 +22,7 @@ Note the top row of the screen showing icons, on the left the Raspberry will dis
 This Prt Sc shows the CDSP Devices tab with the on-screen keyboard. The keys are big enough for good typing accuracy with big hands.
 ![alt text](<Images/10.1 screen Devices tab with on-screen keyboard.jpg>)
 
-This Prt Sc shows the CDSP File tab. 
+This Prt Sc shows the CDSP File tab. The "_" at the beginning of the configs is to identify them for the remote to select.
 ![alt text](<Images/10.1 screen CamillaDSP Files tab.jpg>)
 
 This Prt Sc shows the Streamer input Pipeline in collapsed mode.
