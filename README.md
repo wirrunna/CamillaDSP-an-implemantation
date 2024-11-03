@@ -1,9 +1,11 @@
 # CamillaDSP-an-Implemantation
 ### Implementing CamillaDSP on a Raspberry Pi 5 on a 10.1" Touch screen
 
-Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog input for CamillaDSP and also output to the three stereo amplifiers. JiveLite also runs on the RPi providing streaming from a LMS (Squeezebox) server. A FLIRC provides remote source selection and volume control.
+Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog input for CamillaDSP and also balanced analog output to the three stereo amplifiers. JiveLite also runs on the RPi providing streaming from a LMS (Squeezebox) server. A FLIRC receiver provides remote source selection and volume control.
 
-Here is a photo of the touch screen showing CamillaDSP (CDSP) with JiveLite playing.
+This is in effect a combined pre-amplifier/streamer with DSP and remote control for selection of analog and digital inputs and volume. Bass and Treble are set by sliders on another screen.
+
+Here is a photo of the touch screen showing CamillaDSP (CDSP) with JiveLite playing playing a stream from my LMS server.
 ![alt text](<Images/10.1 screen front pic.JPG>)
 
 This photo shows the back of the screen with the RPi5 mounted. The support legs have a slot  allowing cables to be fed through keeping some tideness. The FLIRC is attached on the right hand side to a USB extension cable. The white cable is the RPi5 power, one of the black cables is the USB connection to the Motu UL Mk5 the other is the 5v power cable for the screen. 
@@ -58,6 +60,7 @@ https://www.waveshare.com/10.1inch-hdmi-lcd-b-with-case.htm
 Waveshare have a higher resolution screen (1920x1200) in a sexier case but it needs a VESA mount for the RPi and the case is more expensive. I did buy one and set its screen resolution back to 1280 x 800 and JiveLite to Touch Skin 1024 x 600. It is a somewhat neater installation as most of the cables are hidden but there is no easy way to attach the FLIRC on a short USB extension cable so it is plugged into a USB port on the RPi behind the screen and therefore not as sensitive to the remote. I could add an extension cable and gaffer tape the FLIRC so it sticks out the side of the screen but have not done that yet.
 
 https://www.waveshare.com/product/10.1inch-hdmi-lcd-g-with-case.htm
+
 https://core-electronics.com.au/vesa-mount-for-raspberry-pi-44627.html
 
 ### Software -
