@@ -27,7 +27,7 @@ This Prt Sc shows the CDSP Devices tab with the on-screen keyboard. The keys are
 This Prt Sc shows the CDSP File tab. The "_" at the beginning of the config names is to identify them for the remote to select.
 ![alt text](<Images/10.1 screen CamillaDSP Files tab.jpg>)
 
-The Pipeline is where the signal flow is configured. Here are some prt sc of some pipeline plots.
+The Pipeline is where the signal flow is configured. Here are some prt sc of some pipeline plots. EQ filters for each driver can be grouped so the pipeline will be easier to understand when "collapsed". Hovering the cursor or touching a collapsed group will display the names of the filters in a popup. REW will generate up to 19 IIR filters when performing the EQ process.
 
 This Prt Sc shows the Streamer input Pipeline. 
 ![alt text](<Images/10.1 screen streamer pipeline.jpg>)
