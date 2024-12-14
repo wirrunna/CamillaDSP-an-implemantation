@@ -91,6 +91,13 @@ Jivelite - full install instructions from Man in a van here (thanks Ronnie) -
 https://forums.slimdevices.com/forum/user-forums/linux-unix/95254-announce-jivelite-cut-down-squeezebox-control-application/page33#post1681857
 I set the jivelite screen to Touch Skin 1024 x 600.
 
+Here are my parameters fom etc/default/squeezelite, they are based on Archimago's Goldilocks settings with the addition of re-sampling to 96,000.
+
+SL_SOUNDCARD="hw:Loopback,1"
+SB_EXTRA_ARGS="-W -C 30 -b 20480:6892 -r 96000-96000 -R vLE::4:28:95:105:45"
+
+http://archimago.blogspot.com/2018/01/musings-more-fun-with-digital-filters.html
+
 On-screen keyboard for RPi 5 running Pi OS (Bookworm)
 https://forums.raspberrypi.com/viewtopic.php?t=358147
 
