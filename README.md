@@ -97,6 +97,8 @@ SL_SOUNDCARD="hw:Loopback,1"
 SB_EXTRA_ARGS="-W -C 30 -b 20480:6892 -r 96000-96000 -R vLE::4:28:95:105:45"
 
 http://archimago.blogspot.com/2018/01/musings-more-fun-with-digital-filters.html
+http://archimago.blogspot.com/2017/12/howto-musings-playing-with-digital_23.html
+
 
 On-screen keyboard for RPi 5 running Pi OS (Bookworm)
 https://forums.raspberrypi.com/viewtopic.php?t=358147
