@@ -1,0 +1,201 @@
+description: null
+devices:
+  adjust_period: 10
+  capture:
+    channels: 2
+    device: hw:UAC2Gadget
+    format: S32LE
+    labels: null
+    link_mute_control: null
+    link_volume_control: null
+    stop_on_inactive: null
+    type: Alsa
+  capture_samplerate: 48000
+  chunksize: 512
+  enable_rate_adjust: true
+  multithreaded: null
+  playback:
+    channels: 18
+    device: hw:UltraLitemk5
+    format: S24LE3
+    type: Alsa
+  queuelimit: 4
+  rate_measure_interval: 1
+  resampler:
+    type: Synchronous
+  samplerate: 96000
+  silence_threshold: -100
+  silence_timeout: 5
+  stop_on_rate_change: false
+  target_level: 1536
+  volume_limit: null
+  volume_ramp_time: null
+  worker_threads: null
+filters: {}
+mixers:
+  2x18:
+    channels:
+      in: 2
+      out: 18
+    description: null
+    labels:
+    - Left
+    - Right
+    - LeftBass
+    - RightBass
+    - LeftMid
+    - RightMid
+    - LeftHi
+    - RightHi
+    mapping:
+    - dest: 0
+      mute: true
+      sources:
+      - channel: 0
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 1
+      mute: true
+      sources:
+      - channel: 1
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 2
+      mute: true
+      sources:
+      - channel: 0
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 3
+      mute: false
+      sources:
+      - channel: 1
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 4
+      mute: true
+      sources:
+      - channel: 0
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 5
+      mute: true
+      sources:
+      - channel: 1
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 6
+      mute: false
+      sources:
+      - channel: 0
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 7
+      mute: false
+      sources:
+      - channel: 1
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 8
+      mute: false
+      sources:
+      - channel: 0
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 9
+      mute: false
+      sources:
+      - channel: 1
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 10
+      mute: false
+      sources:
+      - channel: 0
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 11
+      mute: false
+      sources:
+      - channel: 1
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 12
+      mute: false
+      sources:
+      - channel: 0
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 13
+      mute: false
+      sources:
+      - channel: 1
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 14
+      mute: false
+      sources:
+      - channel: 0
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 15
+      mute: false
+      sources:
+      - channel: 1
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 16
+      mute: false
+      sources:
+      - channel: 0
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+    - dest: 17
+      mute: false
+      sources:
+      - channel: 1
+        gain: 0
+        inverted: false
+        mute: false
+        scale: null
+pipeline:
+- bypassed: null
+  description: null
+  name: 2x18
+  type: Mixer
+processors: {}
+title: Gadget
