@@ -1,7 +1,7 @@
 # CamillaDSP-an-Implemantation
 ### Implementing CamillaDSP on a Raspberry Pi 5 on a 10.1" Touch screen
 
-Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 provides the balanced analog input for CamillaDSP and also balanced analog output to the three stereo amplifiers. JiveLite also runs on the RPi providing streaming from a LMS (Squeezebox) server. A FLIRC receiver provides remote source selection and volume control.
+Following https://www.audiosciencereview.com/forum/index.php?threads/rpi-camilladsp-tutorial.29656/ I built CamillaDSP running on a Raspberry Pi 5 to tri-amp a pair of modified Klipschorns, a USB connected Motu UltraLite Mk.5 audio interface provides the balanced analog input for CamillaDSP and also balanced analog output to the three stereo amplifiers. JiveLite also runs on the RPi providing streaming from a LMS (Squeezebox) server to CamillaDSP. Jivelite is the GUI counterpart to Squeezelite that interacts with LMS to control the player streams and can be also be used to control remote players. A FLIRC receiver provides remote source selection and volume control.
 
 This is in effect a combined pre-amplifier/streamer with DSP and remote control for selection of analog and digital inputs and volume. Bass and Treble are set by sliders on another screen.
 
